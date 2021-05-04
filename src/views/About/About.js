@@ -33,7 +33,7 @@ const About = () => {
             {/* John Davis' Bio */}
             <div className = 'lg:px-24 sm:grid grid-cols-3'>
                 <div className = 'sm:col-span-2 px-10'>
-                    <p align = 'left'>Hello! My name is John Davis, and I have taken the dive into IT. My goal is to be in the DevOps realm, writing Infrastructure as Code and managing/orchestrating containers. I have a B.S. in Computer Science from CalU, and have my Certified Solutions Architect - Associate from Amazon Web Services. When I'm not coding, I'm playing guitar, watching hockey, and lounging at the beach.</p>
+                    <p align = 'left'>Hello! My name is John Davis, and I am an IT professional specializing in the cloud. I have a B.S. in Computer Science from CalU, and have my Certified Solutions Architect - Associate from Amazon Web Services. When I'm not coding, I'm playing guitar, watching hockey, and lounging at the beach.</p>
                 </div>
 
                 {/* this divides the remaining third in half, one side for the picture, other side for badges */}
