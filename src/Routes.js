@@ -11,7 +11,7 @@ import {Route, Switch, Redirect} from 'react-router-dom';
 
 const Routes = () => {
     return (
-        <div>
+        <>
             <Navbar />
 
             <Switch>
@@ -26,7 +26,7 @@ const Routes = () => {
             </Switch>
 
             <Footer />  
-        </div>
+        </>
     );
 };
 
