@@ -12,7 +12,7 @@ const Footer = () => {
 
     return (
         <>
-            <p className = 'pt-80' align = 'center'>2021. Powered by <img style = {imageStyle} src = {logo} alt = 'logo' /> and <img style = {imageStyle} src = {jeffbadge} alt = 'logo' />.</p>
+            <p className = 'pt-80' align = 'center'>2022. Powered by <img style = {imageStyle} src = {logo} alt = 'logo' /> and <img style = {imageStyle} src = {jeffbadge} alt = 'logo' />.</p>
         </>
     );
 };

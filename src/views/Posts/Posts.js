@@ -1,6 +1,7 @@
 import React from 'react';
 //import './Posts.css';
-import Typewriter from 'typewriter-effect';
+
+import MyTypewriter from '../../components/Typewriter/MyTypewriter';
 
 // anything picture related
 
@@ -8,21 +9,11 @@ const Posts = () => {
     return (
         <>
             <div className = 'flex justify-center p-10 text-8xl'>
-                <Typewriter
-                    options = {{
-                        cursor: '_'
-                    }}
-                    onInit = {
-                        (typewriter) => {
-                            typewriter.pauseFor(1)
-                            .typeString('Posts')
-                            .start();
-                        }
-                    }
-                />
+                <MyTypewriter />
             </div>
-
-            
+            <div>
+                <p className = 'p-3'>I broke this. It'll be back soon. Maybe.</p>
+            </div>    
         </>
     );
 };

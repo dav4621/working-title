@@ -1,6 +1,6 @@
 import React from 'react';
 import './Projects.css';
-import Typewriter from 'typewriter-effect';
+import MyTypewriter from '../../components/Typewriter/MyTypewriter';
 
 // anything picture related
 import pooPi from './poopi.png';
@@ -14,18 +14,7 @@ const Projects = () => {
     return (
         <>
             <div className = 'flex justify-center p-10 text-8xl'>
-                <Typewriter
-                    options = {{
-                        cursor: '_'
-                    }}
-                    onInit = {
-                        (typewriter) => {
-                            typewriter.pauseFor(1)
-                            .typeString('Projects')
-                            .start();
-                        }
-                    }
-                />
+                <MyTypewriter />
             </div>
 
             {/* Quick Links to the different projects (may eventually be useful) */}

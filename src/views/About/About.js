@@ -1,6 +1,6 @@
 import React from 'react';
 import './About.css';
-import Typewriter from 'typewriter-effect';
+import MyTypewriter from '../../components/Typewriter/MyTypewriter';
 
 // anything picture related
 import jdprofile from './jdprofile.jpeg';
@@ -13,18 +13,7 @@ const About = () => {
     return (
         <>
             <div className = 'flex justify-center p-10 text-8xl'>
-                <Typewriter
-                    options = {{
-                        cursor: '_'
-                    }}
-                    onInit = {
-                        (typewriter) => {
-                            typewriter.pauseFor(1)
-                            .typeString('About')
-                            .start();
-                        }
-                    }
-                />
+                <MyTypewriter />
             </div>
             
             {/* This creates a grid of thirds, 2/3 will be paragraph content.
